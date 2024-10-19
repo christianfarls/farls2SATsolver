@@ -107,7 +107,7 @@ def run_test(file, output_csv_path, output_txt_path):
         print(f"Test {i+1}: Clauses: {len(clauses)}, Time: {execution_time:.6f}s, Satisfiable: {result}")
 
 if __name__ == "__main__":
-    input_file = "../data/check_farls.csv"  # Input file
+    input_file = "../data/2SAT.cnf.csv"  # Input file
     output_csv = "../output/timing_results_farls.csv"  # CSV output
     output_txt = "../output/output_farls.txt"  # TXT output for detailed results
 
